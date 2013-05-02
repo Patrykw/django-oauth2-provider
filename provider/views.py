@@ -357,7 +357,7 @@ class AccessToken(OAuthView, Mixin):
     Authentication backends used to authenticate a particular client.
     """
 
-    grant_types = ['authorization_code', 'refresh_token', 'password']
+    grant_types = ['authorization_code', 'refresh_token']
     """
     The default grant types supported by this view.
     """
